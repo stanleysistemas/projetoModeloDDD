@@ -23,7 +23,9 @@ namespace ProjetoModeloDDD.Domain.Entities
 
         public virtual IEnumerable<Dispositivo> Dispositivos { get; set; }
 
-        
+        public virtual IEnumerable<LocalizacaoUsuario> LocalizacaoUsuarios { get; set; }
+
+
 
     }
 }
