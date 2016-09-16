@@ -30,9 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Entities\Dispositivos.cs" />
     <Compile Include="Entities\Usuario.cs" />
-    <Compile Include="Entities\UsuarioLocalizacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
