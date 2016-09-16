@@ -12,7 +12,7 @@ namespace ProjetoModeloDDD.Domain.Entities
         public string IMEI { get; set; }
         public string NomeDispositivo { get; set; }
         public DateTime DataCadastro { get; set; }
-        public string Ativo { get; set; }
+        public bool Ativo { get; set; }
 
         public int UsuarioId { get; set; }
 

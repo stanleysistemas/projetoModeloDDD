@@ -19,8 +19,7 @@ namespace ProjetoModeloDDD.Infra.Data.EntityConfig
                 .HasMaxLength(100);
 
             Property(d => d.Ativo)
-                .IsRequired()
-                .HasMaxLength(1);
+                .IsRequired();
 
             HasRequired(u => u.Usuario)
                 .WithMany()
