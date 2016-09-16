@@ -15,6 +15,6 @@ namespace ConnectX.Domain.Entities
         public float Precisao { get; set; }
         public DateTime DtGPS { get; set; }
         public string Provider { get; set; }
-        public virtual Usuario Usuario { get; set; }
+       // public virtual Usuario Usuario { get; set; }
     }
 }

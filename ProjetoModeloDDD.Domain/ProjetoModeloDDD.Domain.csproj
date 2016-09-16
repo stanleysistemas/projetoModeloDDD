@@ -31,8 +31,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Entities\Dispositivos.cs" />
-    <Compile Include="Entities\ModulosAcesso.cs" />
-    <Compile Include="Entities\PerfilUsuario.cs" />
     <Compile Include="Entities\Usuario.cs" />
     <Compile Include="Entities\UsuarioLocalizacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
