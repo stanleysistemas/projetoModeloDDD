@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoModeloDDDContext.Domain.Entities
+namespace ProjetoModeloDDD.Domain.Entities
 {
     public class LocalizacaoUsuario
     {

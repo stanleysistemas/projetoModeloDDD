@@ -1,4 +1,4 @@
-namespace ProjetoModeloDDDContext.Infra.Data.Migrations
+namespace ProjetoModeloDDD.Infra.Data.Migrations
 {
     using System;
     using System.Data.Entity;
@@ -12,7 +12,7 @@ namespace ProjetoModeloDDDContext.Infra.Data.Migrations
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(ProjetoModeloDDDContext.Infra.Data.Contexto.ProjetoModeloContext context)
+        protected override void Seed(ProjetoModeloDDD.Infra.Data.Contexto.ProjetoModeloContext context)
         {
             //  This method will be called after migrating to the latest version.
 

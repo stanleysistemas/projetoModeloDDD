@@ -1,13 +1,14 @@
 ﻿using ProjetoModeloDDD.Domain.Entities;
+using ProjetoModeloDDD.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoModeloDDD.Domain.Interfaces
+namespace ProjetoModeloDDD.Infra.Data.Repositories
 {
-    public interface IUsuarioRepository : IRepositoryBase<Usuario>
+    public class RepositoryUsuario : RepositoryBase<Usuario>, IUsuarioRepository
     {
     }
 }

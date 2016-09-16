@@ -1,7 +1,7 @@
-﻿using ProjetoModeloDDDContext.Domain.Entities;
+﻿using ProjetoModeloDDD.Domain.Entities;
 using System.Data.Entity.ModelConfiguration;
 
-namespace ProjetoModeloDDDContext.Infra.Data.EntityConfig
+namespace ProjetoModeloDDD.Infra.Data.EntityConfig
 {
     public class LocalizacaoUsuarioConfiguration : EntityTypeConfiguration<LocalizacaoUsuario>
     {

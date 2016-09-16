@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoModeloDDDContext.Domain.Interfaces
+namespace ProjetoModeloDDD.Domain.Interfaces
 {
     public interface IRepositoryBase<TEntity> where TEntity : class
     {
