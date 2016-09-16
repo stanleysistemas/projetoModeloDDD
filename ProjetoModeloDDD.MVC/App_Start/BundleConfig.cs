@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace ProjetoModeloDDD.MVC
+namespace ProjetoModeloDDDContext.MVC
 {
     public class BundleConfig
     {

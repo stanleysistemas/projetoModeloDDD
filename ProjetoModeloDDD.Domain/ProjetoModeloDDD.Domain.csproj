@@ -33,10 +33,11 @@
     <Compile Include="Entities\Dispositivo.cs" />
     <Compile Include="Entities\LocalizacaoUsuario.cs" />
     <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Interfaces\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\IUsuarioRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>

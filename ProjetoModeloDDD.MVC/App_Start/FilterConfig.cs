@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace ProjetoModeloDDD.MVC
+namespace ProjetoModeloDDDContext.MVC
 {
     public class FilterConfig
     {

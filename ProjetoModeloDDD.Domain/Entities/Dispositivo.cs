@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoModeloDDD.Domain.Entities
+namespace ProjetoModeloDDDContext.Domain.Entities
 {
     public class Dispositivo
     {

@@ -1,5 +1,5 @@
-﻿using ProjetoModeloDDD.Domain.Entities;
-using ProjetoModeloDDD.Infra.Data.EntityConfig;
+﻿using ProjetoModeloDDDContext.Domain.Entities;
+using ProjetoModeloDDDContext.Infra.Data.EntityConfig;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoModeloDDD.Infra.Data.Contexto
+namespace ProjetoModeloDDDContext.Infra.Data.Contexto
 {
     public class ProjetoModeloContext : DbContext
     {
