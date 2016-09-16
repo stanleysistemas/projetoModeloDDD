@@ -21,6 +21,8 @@ namespace ProjetoModeloDDD.Infra.Data.Contexto
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Dispositivo> Dispositivos { get; set; }
 
+        public DbSet<LocalizacaoUsuario> LocalizacaoUsuarios { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
@@ -39,6 +41,7 @@ namespace ProjetoModeloDDD.Infra.Data.Contexto
 
             modelBuilder.Configurations.Add(new UsuarioConfiguration());
             modelBuilder.Configurations.Add(new DispositivoConfiguration());
+            modelBuilder.Configurations.Add(new LocalizacaoUsuarioConfiguration());
 
         }
 
