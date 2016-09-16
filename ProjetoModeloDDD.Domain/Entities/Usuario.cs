@@ -21,16 +21,9 @@ namespace ProjetoModeloDDD.Domain.Entities
         public int Idade { get; set; }
         public bool Ativo { get; set; }
 
-       // public bool UsuarioEspecial { get; set; }
+        public virtual IEnumerable<Dispositivo> Dispositivos { get; set; }
 
-
-        //   public virtual PerfilUsuario PerfilUsuario { get; set; }
-        // public virtual ICollection<Dispositivos> Dispositivo { get; set; }
-        // public virtual ICollection<UsuarioLocalizacao> Localizacao { get; set; }
-
-
-
-
+        
 
     }
 }
