@@ -57,6 +57,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\RepositoryDispositivo.cs" />
+    <Compile Include="Repositories\RepositoryLocalizacaoUsuario.cs" />
     <Compile Include="Repositories\RepositoryUsuario.cs" />
   </ItemGroup>
   <ItemGroup>

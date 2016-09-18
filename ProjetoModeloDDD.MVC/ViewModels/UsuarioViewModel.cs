@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using ProjetoModeloDDD.Domain.Entities;
 
 namespace ProjetoModeloDDD.MVC.ViewModels
 {
@@ -46,8 +47,8 @@ namespace ProjetoModeloDDD.MVC.ViewModels
         [ScaffoldColumn(false)]
         public bool Ativo { get; set; }
 
-       // public virtual IEnumerable<Dispositivo> Dispositivos { get; set; }
+        public virtual IEnumerable<DispositivoViewModel> Dispositivos { get; set; }
 
-       // public virtual IEnumerable<LocalizacaoUsuario> LocalizacaoUsuarios { get; set; }
+       // public virtual IEnumerable<LocalizacaoUsuarioViewModel> LocalizacaoUsuarios { get; set; }
     }
 }

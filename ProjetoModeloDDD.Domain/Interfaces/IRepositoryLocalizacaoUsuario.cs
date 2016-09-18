@@ -9,5 +9,6 @@ namespace ProjetoModeloDDD.Domain.Interfaces
 {
     public interface IRepositoryLocalizacaoUsuario : IRepositoryBase<LocalizacaoUsuario>
     {
+        IEnumerable<LocalizacaoUsuario> BuscaUsuario(int id);
     }
 }

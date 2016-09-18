@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 namespace ProjetoModeloDDD.Domain.Interfaces
 {
     public interface IRepositoryDispositivo : IRepositoryBase<Dispositivo>
-    {
-        IEnumerable<Dispositivo> BuscarPorImei(string Imei);
-        IEnumerable<Dispositivo> BuscaPorUsuario(int Id);
+    {       
+        IEnumerable<Dispositivo> BuscaPorUsuario(int id);
+
+        IEnumerable<Dispositivo> BuscarPorImei(string imei);
     }
 }

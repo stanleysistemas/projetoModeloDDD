@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace ProjetoModeloDDD.Domain.Entities
+namespace ProjetoModeloDDD.MVC.ViewModels
 {
-    public class LocalizacaoUsuario
+    public class LocalizacaoUsuarioViewModel
     {
+        [Key]
         public int LocalizacaoId { get; set; }
         public string Latitude { get; set; }
         public string Longitude { get; set; }
@@ -15,6 +16,6 @@ namespace ProjetoModeloDDD.Domain.Entities
         public DateTime DtGps { get; set; }
         public string Provider { get; set; }
         public int UsuarioId { get; set; }
-        public virtual Usuario Usuario { get; set; }
+        public virtual UsuarioViewModel Usuario { get; set; }
     }
 }
