@@ -42,6 +42,8 @@
     <Compile Include="Interfaces\Services\IServiceUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ServiceBase.cs" />
+    <Compile Include="Services\ServiceDispositivo.cs" />
+    <Compile Include="Services\ServiceUsuario.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

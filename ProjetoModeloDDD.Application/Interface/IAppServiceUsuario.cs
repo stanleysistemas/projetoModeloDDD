@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoModeloDDD.Domain.Interfaces.Services
+namespace ProjetoModeloDDD.Application.Interface
 {
-    interface IServiceUsuario : IServiceBase<Usuario>
+    public interface IAppServiceUsuario : IAppServiceBase<Usuario>
     {
-        
+
     }
 }
