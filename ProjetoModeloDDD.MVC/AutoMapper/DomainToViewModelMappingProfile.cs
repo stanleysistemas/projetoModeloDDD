@@ -1,11 +1,10 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using AutoMapper;
 using ProjetoModeloDDD.MVC.ViewModels;
 using ProjetoModeloDDD.Domain.Entities;
-using 
 
 namespace ProjetoModeloDDD.MVC.AutoMapper
 {
@@ -18,9 +17,11 @@ namespace ProjetoModeloDDD.MVC.AutoMapper
 
         protected override void Configure()
         {
-            Mapper.CreateMap<UsuarioViewModel, Usuario>();
-            Mapper.CreateMap<DispositivoViewModel, Dispositivo>();
-            Mapper.CreateMap<LocalizacaoUsuarioViewModel, LocalizacaoUsuario>();
+            Mapper.CreateMap<UsuarioViewModel,Usuario> ();
+            Mapper.CreateMap<DispositivoViewModel,Dispositivo>();
+            Mapper.CreateMap<LocalizacaoUsuarioViewModel,LocalizacaoUsuario>();
+
+            
         }
     }
 }

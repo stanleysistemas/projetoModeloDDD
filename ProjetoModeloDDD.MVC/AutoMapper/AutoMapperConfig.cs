@@ -6,9 +6,9 @@ using System.Web;
 
 namespace ProjetoModeloDDD.MVC.AutoMapper
 {
-    public class AutoMapperConfig
+    public class AutoMapperConfig 
     {
-        public static void RegisterMapping()
+        public static void RegisterMappings()
         {
             Mapper.Initialize(x =>
             {
@@ -17,5 +17,7 @@ namespace ProjetoModeloDDD.MVC.AutoMapper
 
             });
         }
+
+       
     }
 }

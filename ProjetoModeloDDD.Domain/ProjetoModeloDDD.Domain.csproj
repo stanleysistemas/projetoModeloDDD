@@ -33,17 +33,27 @@
     <Compile Include="Entities\Dispositivo.cs" />
     <Compile Include="Entities\LocalizacaoUsuario.cs" />
     <Compile Include="Entities\Usuario.cs" />
-    <Compile Include="Interfaces\IRepositoryDispositivo.cs" />
-    <Compile Include="Interfaces\IRepositoryBase.cs" />
-    <Compile Include="Interfaces\IRepositoryLocalizacaoUsuario.cs" />
-    <Compile Include="Interfaces\IRepositoryUsuario.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryDispositivo.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryLocalizacaoUsuario.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryUsuario.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
+    <Compile Include="Interfaces\Services\IServiceDispositivo.cs" />
+    <Compile Include="Interfaces\Services\IServiceUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.0\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
