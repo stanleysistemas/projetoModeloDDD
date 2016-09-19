@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ProjetoModeloDDD.Domain.Interfaces;
 using ProjetoModeloDDD.Domain.Entities;
+using ProjetoModeloDDD.Domain.Interfaces.Repositories;
 
 namespace ProjetoModeloDDD.Infra.Data.Repositories
 {

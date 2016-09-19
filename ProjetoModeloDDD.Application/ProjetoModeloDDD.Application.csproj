@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppServiceBase.cs" />
+    <Compile Include="AppServiceDispositivo.cs" />
     <Compile Include="AppServiceUsuario.cs" />
     <Compile Include="Interface\IAppServiceBase.cs" />
     <Compile Include="Interface\IAppServiceDispositivo.cs" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoModeloDDD.Domain.Interfaces.Services
 {
-    interface IServiceUsuario : IServiceBase<Usuario>
+    public interface IServiceUsuario : IServiceBase<Usuario>
     {
         
     }
